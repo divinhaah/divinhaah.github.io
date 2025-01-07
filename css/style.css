@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --jet: #06363f;
+    --cadet-gray: #a0a0a0;
+    --electric-blue: #ff6699;
+    --medium-blue: #00c1a1;
+    --white: #f5b3d2;
+} 
 body {
 font-family: "Milonga", serif;
 background-color: #000;
@@ -17,7 +24,7 @@ section:first-child {
     width: 100%;
 }
 section.hero-section {
-    background: linear-gradient(#200912ee,#0aa8a870), url("https://img.freepik.com/fotos-gratis/a-dupla-exposicao-de-um-homem-caucasiano-e-um-fone-de-ouvido-de-realidade-virtual-vr-e-presumivelmente-um-jogador-ou-um-hacker-quebrando-o-codigo-em-uma-rede-ou-servidor-seguro-com-linhas-de-codigo_146671-18910.jpg?t=st=1736125556~exp=1736129156~hmac=2698fe8c98acd2ef13058e564747b185b63c08a5b17813b81e9f2a8326969c85&w=900");
+    background: linear-gradient(#012c36ee,#000000c5), url("https://img.freepik.com/fotos-gratis/a-dupla-exposicao-de-um-homem-caucasiano-e-um-fone-de-ouvido-de-realidade-virtual-vr-e-presumivelmente-um-jogador-ou-um-hacker-quebrando-o-codigo-em-uma-rede-ou-servidor-seguro-com-linhas-de-codigo_146671-18910.jpg?t=st=1736125556~exp=1736129156~hmac=2698fe8c98acd2ef13058e564747b185b63c08a5b17813b81e9f2a8326969c85&w=900");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,12 +46,23 @@ section.hero-section div.titles span:nth-of-type(2) {
     color: rgb(255, 7, 90);
     font-size: 34px;
     font-weight: 600;
-    text-shadow: 0 0 5px #000;
+    text-shadow: 0 0 5px #ca0f3ead;
+    background: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWFydnFtYWVlMjRjejM2dmh0cXIzMG11bHZ5bTRxMDI1ajE3OXM4cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/abt3O3BEwR6wg/giphy.webp);
+    background-size: contain;
+    background-position: top left;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 section.hero-section div.titles h1 {
     color: rgb(255, 255, 255);
     font-size: 64px;
     font-weight: 600;
+    text-shadow: 0 0 5px #faf8f8;
+    background: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWZzMHU2bzBld3AzdDY3YzNrZGs2bWI3YzdrZmVmYnI3YXA4aXJiNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3q2AFjhKYobfCJgc/giphy.webp);
+    background-size: contain;
+    background-position: top left;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 section.hero-section div.buttons {
     display: flex;
@@ -81,46 +99,79 @@ section.hero-section div.buttons a:nth-of-type(2):hover {
     color: rgb(247, 168, 217);
     border: 3px solid rgb(252, 252, 252);
 }
-section.sobre-mim{
-    color: rgb(234, 244, 248);
-    text-shadow: 0 0 5px #b2ebf5;
-    padding-top : 200px;
-    padding-right: 130px;
-    padding-left: 130px;
- }
-section.sobre-mim div.span {
-    color: rgb(104, 245, 179);
-    font-size: 50px;
-    font-weight: 600;
-    padding-left: 150px;
-    text-align: center;
+section.sobre-mim {
+    padding-top : 100px;
+    padding-bottom: 100px;
+}
+ section.sobre-mim div.container {
+    display: flex;
+    gap: 50px;
+}
+section.sobre-mim div.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 70%;
+}
+section.sobre-mim div.sobre-mim h2 {
+    font-size: 37px;
+    background: linear-gradient(90deg, #a4d8f7, #b3dbeb, #abe5f3);
+    background-size: 95%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: sombra 3s linear infinite alternate;
+    
+}
+section.sobre-mim div.sobre-mim p {
+    color: rgba(255, 188, 219, 0.938);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: justify;
 }
 section.sobre-mim div.img {
-    padding-right:130px;
-    padding-left: 130px;
-}
-:root {
-    --jet: #292929;
-    --cadet-gray: #a0a0a0;
-    --electric-blue: #ff6699;
-    --medium-blue: #00c1a1;
-    --white: #f5b3d2;
-} 
-section {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100dvh;
+    width: 30%;
 }
+section.sobre-mim div.img img {
+    width: 80%;
+} 
+@keyframes sombra {
+    0% {
+    background-position: -500%;
+}
+100% {
+    background-position: 500%;
+}
+}
+section.a p {
+    text-align: center;
+    font-size: 20px; 
+    font-weight: bold;
+    background: linear-gradient(90deg, #bfdefd, #f5a3c6, #8ce3e9, #f0a7ec);
+    -webkit-background-clip: text;
+    color: transparent; 
+    gap: 30px;
+    padding: 100px 10px;
+}
+/* Cards */
 section div.group {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    padding: 50px 100px;
 } 
 section div.group div.flipbox {
-    height: 300px;
-    width: 250px;
+    grid-template-columns: repeat(2, 1fr);
+    height: 270px;
+    width: 240px;
     perspective: 800px;
+    padding: 1px 10px  ;
+    gap: 30px;
+    
 }
 section div.group div.flipbox div.flipbox__card {
     height: 100%;
@@ -205,4 +256,44 @@ section div.group details.accordion__details p.accordion__details--content {
     background-image: -webkit-linear-gradient(315deg, var(--medium-blue), var(--electric-blue));
     padding: 20px 30px;
     font-size: 16px;
+}
+div.links { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items:center;
+}
+div.links a
+{
+    font-size: 18px;
+    padding: 15px;
+    border: 1px solid #111111;
+    color: #000e0b;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px; 
+    transition: .4s;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+}
+
+div.links a:hover {
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 0 0 15px #feffff;
+}
+
+@media screen and (max-width:480px) {
+    div.container {
+        flex-direction: column;
+           
+           }
+           div.links a
+           {
+             font-size: 14px;
+           }       
 }
