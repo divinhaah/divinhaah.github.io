@@ -55,7 +55,7 @@ header nav a {
 
 /* Section - Hero */
 section.hero-section {
-    background: linear-gradient(#06363fee, var(--gray-dark)), 
+    background: linear-gradient(#06363fee, var(#00c1a1)), 
                 url("https://img.freepik.com/fotos-gratis/a-dupla-exposicao-de-um-homem-caucasiano-e-um-fone-de-ouvido-de-realidade-virtual-vr-e-presumivelmente-um-jogador-ou-um-hacker-quebrando-o-codigo-em-uma-rede-ou-servidor-seguro-com-linhas-de-codigo_146671-18910.jpg?t=st=1736125556~exp=1736129156~hmac=2698fe8c98acd2ef13058e564747b185b63c08a5b17813b81e9f2a8326969c85&w=900");
     background-position: center;
     background-size: cover;
@@ -184,7 +184,7 @@ section.a p {
     text-align: center;
     font-size: 20px; 
     font-weight: bold;
-    background: linear-gradient(90deg, #00c1a1, #06363f, #00c1a1, #f0a7ec);
+    background: linear-gradient(90deg, #00c1a1, #06363f, #00c1a1, #06363f);
     -webkit-background-clip: text;
     color: transparent; 
     gap: 30px;
@@ -301,8 +301,8 @@ div.links a
 {
     font-size: 18px;
     padding: 15px;
-    border: 1px solid  #00c1a1;
-    color: #bed3eb;
+    border: 1px solid  #06363f;
+    color: #06363f;
     text-decoration: none;
     text-align: center;
     border-radius: 50px; 
