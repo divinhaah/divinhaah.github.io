@@ -3,102 +3,134 @@
     margin: 0;
     padding: 0;
 }
+
 :root {
-    --jet: #06363f;
-    --cadet-gray: #a0a0a0;
-    --electric-blue: #ff6699;
-    --medium-blue: #00c1a1;
-    --white: #f5b3d2;
-} 
-body {
-font-family: "Milonga", serif;
-background-color: #000;
+    --gray-dark: #131313;
+    --green-dark: #06363f;
+    --green-light: #00c1a1;
+    --white: #ffffff;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Milonga", serif;
+    background-color: var(--gray-dark)
+}
+
 section:first-child {
     height: 100dvh;
-    padding-top: 190px;
 }
+
 .container {
-    max-width: 1140px;
+    max-width: 1200px;
     margin: 0 auto;
     width: 100%;
 }
+
+/* Header */
+header {
+    position: fixed;
+    top: 30px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+header nav a {
+    color: var(--white);
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Section - Hero */
 section.hero-section {
-    background: linear-gradient(#012c36ee,#000000c5), url("https://img.freepik.com/fotos-gratis/a-dupla-exposicao-de-um-homem-caucasiano-e-um-fone-de-ouvido-de-realidade-virtual-vr-e-presumivelmente-um-jogador-ou-um-hacker-quebrando-o-codigo-em-uma-rede-ou-servidor-seguro-com-linhas-de-codigo_146671-18910.jpg?t=st=1736125556~exp=1736129156~hmac=2698fe8c98acd2ef13058e564747b185b63c08a5b17813b81e9f2a8326969c85&w=900");
+    background: linear-gradient(#06363fee, var(--gray-dark)), 
+                url("https://img.freepik.com/fotos-gratis/a-dupla-exposicao-de-um-homem-caucasiano-e-um-fone-de-ouvido-de-realidade-virtual-vr-e-presumivelmente-um-jogador-ou-um-hacker-quebrando-o-codigo-em-uma-rede-ou-servidor-seguro-com-linhas-de-codigo_146671-18910.jpg?t=st=1736125556~exp=1736129156~hmac=2698fe8c98acd2ef13058e564747b185b63c08a5b17813b81e9f2a8326969c85&w=900");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
     align-items: center;
 }
+
+section.hero-section div.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 section.hero-section div.titles {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
+
 section.hero-section div.titles span:nth-of-type(1) {
-    color: rgb(104, 245, 179);
+    color: var(--white);
+    font-size: 26px;
+}
+
+section.hero-section div.titles span:nth-of-type(2) {
+    color: var(--green-light);
     font-size: 30px;
     font-weight: 600;
 }
-section.hero-section div.titles span:nth-of-type(2) {
-    color: rgb(255, 7, 90);
-    font-size: 34px;
-    font-weight: 600;
-    text-shadow: 0 0 5px #ca0f3ead;
-    background: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWFydnFtYWVlMjRjejM2dmh0cXIzMG11bHZ5bTRxMDI1ajE3OXM4cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/abt3O3BEwR6wg/giphy.webp);
-    background-size: contain;
-    background-position: top left;
-    -webkit-background-clip: text;
-    color: transparent;
-}
+
 section.hero-section div.titles h1 {
-    color: rgb(255, 255, 255);
+    color: var(--white);
     font-size: 64px;
     font-weight: 600;
-    text-shadow: 0 0 5px #faf8f8;
-    background: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWZzMHU2bzBld3AzdDY3YzNrZGs2bWI3YzdrZmVmYnI3YXA4aXJiNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3q2AFjhKYobfCJgc/giphy.webp);
-    background-size: contain;
-    background-position: top left;
-    -webkit-background-clip: text;
-    color: transparent;
 }
+
 section.hero-section div.buttons {
     display: flex;
     gap: 30px;
-    margin-top: 40px;
 }
+
 section.hero-section div.buttons a {
-    text-decoration: none;
-    font-size: 24px;
+    font-size: 18px;
     transition: .3s;
-   
-    padding: 20px 40px;
+    padding: 12px 36px;
+    text-decoration: none;
+
 }
+
 section.hero-section div.buttons a:nth-of-type(1) { 
-    border: 3px solid #f5f1f1;
+    border: 2px solid var(--green-light);
     border-radius: 10px;
-    color: rgb(247, 168, 217);
+    color: var(--white);
 }
+
 section.hero-section div.buttons a:nth-of-type(1):hover {
-    background-color: rgba(169, 240, 216, 0.377);
-    border: 3px solid rgba(169, 240, 216, 0.596);
-    color: #000;
-    border: 3px solid rgb(0, 0, 0);
+    background-color: var(--green-light);
+    border: 2px solid var(--green-light);
+    color: var(--gray-dark);
 }
+
 section.hero-section div.buttons a:nth-of-type(2) {
-    border: 3px solid transparent;
+    background-color: var(--green-light);
     border-radius: 10px;
-    background-color: rgba(243, 177, 210, 0.438);
-    color: #000000 ;
-    border: 3px solid rgb(0, 0, 0);
+    border: 2px solid var(--green-light);
+    color: var(--gray-dark);
 }
+
 section.hero-section div.buttons a:nth-of-type(2):hover {
-    background-color: rgba(13, 151, 105, 0.377);
-    color: rgb(247, 168, 217);
-    border: 3px solid rgb(252, 252, 252);
+    background-color: transparent;
+    border: 2px solid var(--green-light);
+    color: var(--white);
 }
+
+/* Section - Sobre mim */
 section.sobre-mim {
     padding-top : 100px;
     padding-bottom: 100px;
@@ -192,7 +224,6 @@ section div.group div.flipbox div.flipbox__card div.flipbox__card--back {
     position: absolute;
     inset: 0;
     backface-visibility: hidden;
-    box-shadow: 0 5px 10px var(--cadet-gray);
 } 
 section div.group div.flipbox div.flipbox__card div.flipbox__card--front {
     background-color: var(--jet);
