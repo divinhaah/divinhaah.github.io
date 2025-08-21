@@ -47,7 +47,7 @@ header nav {
 }
 
 header nav a {
-    color: var(--white);
+    color: var(--green-dark);
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
@@ -77,7 +77,7 @@ section.hero-section div.titles {
 }
 
 section.hero-section div.titles span:nth-of-type(1) {
-    color: var(--white);
+    color: var(--green-dark);
     font-size: 26px;
 }
 
@@ -88,7 +88,7 @@ section.hero-section div.titles span:nth-of-type(2) {
 }
 
 section.hero-section div.titles h1 {
-    color: var(--white);
+    color: var(--green-dark);
     font-size: 64px;
     font-weight: 600;
 }
@@ -215,8 +215,8 @@ section div.group div.flipbox div.flipbox__card {
 section div.group div.flipbox:hover div.flipbox__card {
     transform: rotateY(-180deg);
 } 
-section div.group div.flipbox div.flipbox__card div.flipbox__card--front,
-section div.group div.flipbox div.flipbox__card div.flipbox__card--back {
+section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark,
+section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -227,29 +227,29 @@ section div.group div.flipbox div.flipbox__card div.flipbox__card--back {
     inset: 0;
     backface-visibility: hidden;
 } 
-section div.group div.flipbox div.flipbox__card div.flipbox__card--front {
+section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark {
     background-color: var(--jet);
 }  
-section div.group div.flipbox div.flipbox__card div.flipbox__card--front h2 {
-    background: -webkit-linear-gradient(315deg, var(--medium-blue), var(--electric-blue));
+section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark h2 {
+    background: -webkit-linear-gradient(315deg, var(--green-dark), var(--green-dark));
     -webkit-background-clip: text;
     color: transparent;  
     font-size: 40px;
 } 
-section div.group div.flipbox div.flipbox__card div.flipbox__card--front h4 {
+section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark h4 {
     color: var(--white);
     font-size: 28px;
 } 
-section div.group div.flipbox div.flipbox__card div.flipbox__card--back {
-    background-image: -webkit-linear-gradient(315deg, var(--medium-blue), var(--electric-blue));
+section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark {
+    background-image: -webkit-linear-gradient(315deg, var(--green-dark), var(--green-dark));
     transform: rotateY(180deg);
     gap: 20px;
 }  
-section div.group div.flipbox div.flipbox__card div.flipbox__card--back span {
+section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark span {
     font-size: 16px;
 } 
-section div.group div.flipbox div.flipbox__card div.flipbox__card--back button {
-    background-color: var(--jet);
+section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark button {
+    background-color: var(--green-dark);
     color: var(--white);
     font-family: "Play", sans-serif;
     font-size: 16px;
@@ -258,8 +258,8 @@ section div.group div.flipbox div.flipbox__card div.flipbox__card--back button {
     padding: 10px 20px;
 }
 section div.group details.accordion__details summary.accordion__details--summary {
-    background-color: var(--jet);
-    color: var(--white);
+    background-color: var(--green-dark);
+    color: var(--green-dark);
     cursor: pointer;
     padding: 20px 30px;
     transition: .5s;
@@ -269,7 +269,7 @@ section div.group details.accordion__details summary.accordion__details--summary
 section div.group details.accordion__details summary.accordion__details--summary span {
     background: -webkit-linear-gradient(315deg, var(--green-dark), var(--green-light));
     -webkit-background-clip: text;
-    color: transparent;
+    color: green-dark;
     font-size: 18px;
     font-weight: 600;
 }
