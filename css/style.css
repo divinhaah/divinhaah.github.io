@@ -258,7 +258,7 @@ section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark bu
     padding: 10px 20px;
 }
 section div.group details.accordion__details summary.accordion__details--summary {
-    background-color: var(--green-light);
+    background-color: var(--green-dark);
     color: var(--green-dark);
     cursor: pointer;
     padding: 20px 30px;
@@ -267,7 +267,7 @@ section div.group details.accordion__details summary.accordion__details--summary
     justify-content: space-between;
 } 
 section div.group details.accordion__details summary.accordion__details--summary span {
-    background: -webkit-linear-gradient(315deg, var(--green-dark), var(--green-light));
+    background: -webkit-linear-gradient(315deg, var(--green-dark), var(--green-dark));
     -webkit-background-clip: text;
     color: white;
     font-size: 18px;
@@ -286,7 +286,7 @@ section div.group details.accordion__details[open] summary.accordion__details--s
     display: none;
 }
 section div.group details.accordion__details p.accordion__details--content {
-    background-image: -webkit-linear-gradient(315deg, var(--green-light), var(--green-light));
+    background-image: -webkit-linear-gradient(315deg, var(--green-dark), var(--green-dark));
     padding: 20px 30px;
     font-size: 16px;
 }
