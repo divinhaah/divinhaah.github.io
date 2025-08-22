@@ -77,12 +77,12 @@ section.hero-section div.titles {
 }
 
 section.hero-section div.titles span:nth-of-type(1) {
-    color: var(--green-dark);
+    color: var(--green-light);
     font-size: 26px;
 }
 
 section.hero-section div.titles span:nth-of-type(2) {
-    color: var(--green-light);
+    color: var(--white);
     font-size: 30px;
     font-weight: 600;
 }
@@ -153,7 +153,7 @@ section.sobre-mim div.sobre-mim h2 {
     background-size: 95%;
     background-repeat: repeat;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: white;
     animation: sombra 3s linear infinite alternate;
     
 }
