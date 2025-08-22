@@ -153,7 +153,7 @@ section.sobre-mim div.sobre-mim h2 {
     background-size: 95%;
     background-repeat: repeat;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: transparent;
     animation: sombra 3s linear infinite alternate;
     
 }
@@ -233,7 +233,7 @@ section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark {
 section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark h2 {
     background: -webkit-linear-gradient(315deg, var(--green-dark), var(--green-dark));
     -webkit-background-clip: text;
-    color: dargreenk;  
+    color: transparent;  
     font-size: 40px;
 } 
 section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark h4 {
