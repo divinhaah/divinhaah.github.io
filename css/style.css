@@ -55,7 +55,7 @@ header nav a {
 
 /* Section - Hero */
 section.hero-section {
-    background: linear-gradient(green-dark), 
+    background:  
                 url("https://img.freepik.com/fotos-gratis/a-dupla-exposicao-de-um-homem-caucasiano-e-um-fone-de-ouvido-de-realidade-virtual-vr-e-presumivelmente-um-jogador-ou-um-hacker-quebrando-o-codigo-em-uma-rede-ou-servidor-seguro-com-linhas-de-codigo_146671-18910.jpg?t=st=1736125556~exp=1736129156~hmac=2698fe8c98acd2ef13058e564747b185b63c08a5b17813b81e9f2a8326969c85&w=900");
     background-position: center;
     background-size: cover;
@@ -77,18 +77,18 @@ section.hero-section div.titles {
 }
 
 section.hero-section div.titles span:nth-of-type(1) {
-    color: var(--green-dark);
+    color: var(--green-light);
     font-size: 26px;
 }
 
 section.hero-section div.titles span:nth-of-type(2) {
-    color: var(--green-light);
+    color: var(--white);
     font-size: 30px;
     font-weight: 600;
 }
 
 section.hero-section div.titles h1 {
-    color: var(--green-dark);
+    color: var(--green-light);
     font-size: 64px;
     font-weight: 600;
 }
@@ -153,7 +153,7 @@ section.sobre-mim div.sobre-mim h2 {
     background-size: 95%;
     background-repeat: repeat;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: green-dark;
+    -webkit-text-fill-color: white;
     animation: sombra 3s linear infinite alternate;
     
 }
@@ -231,9 +231,9 @@ section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark {
     background-color: var(--green-dark);
 }  
 section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark h2 {
-    background: -webkit-linear-gradient(315deg, var(--green-dark), var(--green-dark));
+    background: -webkit-linear-gradient(315deg, var(--green-light), var(--green-dark));
     -webkit-background-clip: text;
-    color: dargreenk;  
+    color: white;  
     font-size: 40px;
 } 
 section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark h4 {
@@ -241,7 +241,7 @@ section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark h4
     font-size: 28px;
 } 
 section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark {
-    background-image: -webkit-linear-gradient(315deg, var(--green-dark), var(---green-dark));
+    background-image: -webkit-linear-gradient(315deg, var(--green-light), var(---green-dark));
     transform: rotateY(180deg);
     gap: 20px;
 }  
@@ -250,7 +250,7 @@ section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark sp
 } 
 section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark button {
     background-color: var(--green-dark);
-    color: var(--green-dark);
+    color: var(--green-light);
     font-family: "Play", sans-serif;
     font-size: 16px;
     cursor: pointer;
@@ -259,7 +259,7 @@ section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark bu
 }
 section div.group details.accordion__details summary.accordion__details--summary {
     background-color: var(--green-dark);
-    color: var(--green-dark);
+    color: var(--green-light);
     cursor: pointer;
     padding: 20px 30px;
     transition: .5s;
