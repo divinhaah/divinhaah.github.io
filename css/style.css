@@ -47,7 +47,7 @@ header nav {
 }
 
 header nav a {
-    color: var(--transparent);
+    color: var(--white);
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
