@@ -55,7 +55,7 @@ header nav a {
 
 /* Section - Hero */
 section.hero-section {
-    background: linear-gradient(#06363fee, var(#00c1a1)), 
+    background: linear-gradient(green-dark), 
                 url("https://img.freepik.com/fotos-gratis/a-dupla-exposicao-de-um-homem-caucasiano-e-um-fone-de-ouvido-de-realidade-virtual-vr-e-presumivelmente-um-jogador-ou-um-hacker-quebrando-o-codigo-em-uma-rede-ou-servidor-seguro-com-linhas-de-codigo_146671-18910.jpg?t=st=1736125556~exp=1736129156~hmac=2698fe8c98acd2ef13058e564747b185b63c08a5b17813b81e9f2a8326969c85&w=900");
     background-position: center;
     background-size: cover;
@@ -126,7 +126,7 @@ section.hero-section div.buttons a:nth-of-type(2) {
 }
 
 section.hero-section div.buttons a:nth-of-type(2):hover {
-    background-color: transparent;
+    background-color: green-dark;
     border: 2px solid var(--green-light);
     color: var(--white);
 }
@@ -153,19 +153,19 @@ section.sobre-mim div.sobre-mim h2 {
     background-size: 95%;
     background-repeat: repeat;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: green-dark;
     animation: sombra 3s linear infinite alternate;
     
 }
 section.sobre-mim div.sobre-mim p {
-    color: #06363f(255, 188, 219, 0.938);
+    color: #00c1a1(255, 188, 219, 0.938);
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 10px;
     text-align: justify;
 }
 section.sobre-mim div.img {
-    color: #06363f(255, 188, 219, 0.938);
+    color: #00c1a1(255, 188, 219, 0.938);
     display: flex;
     justify-content: center;
     width: 30%;
@@ -187,7 +187,7 @@ section.a p {
     font-weight: bold;
     background: linear-gradient(90deg, #00c1a1, #06363f, #00c1a1, #06363f);
     -webkit-background-clip: text;
-    color: transparent; 
+    color: green-dark; 
     gap: 30px;
     padding: 100px 10px;
 }
@@ -228,20 +228,20 @@ section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark {
     backface-visibility: hidden;
 } 
 section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark {
-    background-color: var(--jet);
+    background-color: var(--green-dark);
 }  
 section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark h2 {
     background: -webkit-linear-gradient(315deg, var(--green-dark), var(--green-dark));
     -webkit-background-clip: text;
-    color: transparent;  
+    color: dargreenk;  
     font-size: 40px;
 } 
 section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark h4 {
-    color: var(--white);
+    color: var(--green-dark);
     font-size: 28px;
 } 
 section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark {
-    background-image: -webkit-linear-gradient(315deg, var(--green-dark), var(--green-dark));
+    background-image: -webkit-linear-gradient(315deg, var(--green-dark), var(---green-dark));
     transform: rotateY(180deg);
     gap: 20px;
 }  
@@ -250,7 +250,7 @@ section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark sp
 } 
 section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark button {
     background-color: var(--green-dark);
-    color: var(--white);
+    color: var(--green-dark);
     font-family: "Play", sans-serif;
     font-size: 16px;
     cursor: pointer;
