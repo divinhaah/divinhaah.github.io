@@ -128,7 +128,7 @@ section.hero-section div.buttons a:nth-of-type(2) {
 section.hero-section div.buttons a:nth-of-type(2):hover {
     background-color: transparent;
     border: 2px solid var(--green-light);
-    color: var(--white);
+    color: var(--green-light);
 }
 
 /* Section - Sobre mim */
