@@ -250,7 +250,7 @@ section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark sp
 } 
 section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark button {
     background-color: var(--green-dark);
-    color: var(--green-dark);
+    color: var(--green-light);
     font-family: "Play", sans-serif;
     font-size: 16px;
     cursor: pointer;
@@ -258,7 +258,7 @@ section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark bu
     padding: 10px 20px;
 }
 section div.group details.accordion__details summary.accordion__details--summary {
-    background-color: var(--green-dark);
+    background-color: var(--green-light);
     color: var(--green-dark);
     cursor: pointer;
     padding: 20px 30px;
@@ -269,7 +269,7 @@ section div.group details.accordion__details summary.accordion__details--summary
 section div.group details.accordion__details summary.accordion__details--summary span {
     background: -webkit-linear-gradient(315deg, var(--green-dark), var(--green-light));
     -webkit-background-clip: text;
-    color: green-dark;
+    color: white;
     font-size: 18px;
     font-weight: 600;
 }
