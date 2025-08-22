@@ -77,12 +77,12 @@ section.hero-section div.titles {
 }
 
 section.hero-section div.titles span:nth-of-type(1) {
-    color: var(--green-dark);
+    color: var(--green-light);
     font-size: 26px;
 }
 
 section.hero-section div.titles span:nth-of-type(2) {
-    color: var(--green-dark);
+    color: var(--green-light);
     font-size: 30px;
     font-weight: 600;
 }
@@ -158,7 +158,7 @@ section.sobre-mim div.sobre-mim h2 {
     
 }
 section.sobre-mim div.sobre-mim p {
-    color: var(--green-light);
+    color: var(--green-dark);
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 10px;
