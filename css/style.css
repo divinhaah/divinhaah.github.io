@@ -215,8 +215,8 @@ section div.group div.flipbox div.flipbox__card {
 section div.group div.flipbox:hover div.flipbox__card {
     transform: rotateY(-180deg);
 } 
-section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark,
-section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark {
+section div.group div.flipbox div.flipbox__card div.flipbox__card--front,
+section div.group div.flipbox div.flipbox__card div.flipbox__card--back {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -227,30 +227,30 @@ section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark {
     inset: 0;
     backface-visibility: hidden;
 } 
-section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark {
-    background-color: var(--transparent);
+section div.group div.flipbox div.flipbox__card div.flipbox__card--front {
+    background-color: var(--jet);
 }  
-section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark h2 {
-    background: -webkit-linear-gradient(315deg, var(--green-dark), var(--green-light));
+section div.group div.flipbox div.flipbox__card div.flipbox__card--front h2 {
+    background: -webkit-linear-gradient(315deg, var(--medium-blue), var(--electric-blue));
     -webkit-background-clip: text;
     color: transparent;  
     font-size: 40px;
 } 
-section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark h4 {
-    color: var(--green-dark);
+section div.group div.flipbox div.flipbox__card div.flipbox__card--front h4 {
+    color: var(--white);
     font-size: 28px;
 } 
-section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark {
-    background-image: -webkit-linear-gradient(315deg, var(--green-dark), var(---green-dark));
+section div.group div.flipbox div.flipbox__card div.flipbox__card--back {
+    background-image: -webkit-linear-gradient(315deg, var(--medium-blue), var(--electric-blue));
     transform: rotateY(180deg);
     gap: 20px;
 }  
-section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark span {
+section div.group div.flipbox div.flipbox__card div.flipbox__card--back span {
     font-size: 16px;
 } 
-section div.group div.flipbox div.flipbox__card div.flipbox__card--green-dark button {
-    background-color: var(--green-dark);
-    color: var(--transparent);
+section div.group div.flipbox div.flipbox__card div.flipbox__card--back button {
+    background-color: var(--jet);
+    color: var(--white);
     font-family: "Play", sans-serif;
     font-size: 16px;
     cursor: pointer;
