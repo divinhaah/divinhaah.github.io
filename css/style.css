@@ -55,7 +55,7 @@ header nav a {
 
 /* Section - Hero */
 section.hero-section {
-    background: , 
+    background: linear-gradient(#06363fee, var(#00c1a1)), 
                 url("https://img.freepik.com/fotos-gratis/a-dupla-exposicao-de-um-homem-caucasiano-e-um-fone-de-ouvido-de-realidade-virtual-vr-e-presumivelmente-um-jogador-ou-um-hacker-quebrando-o-codigo-em-uma-rede-ou-servidor-seguro-com-linhas-de-codigo_146671-18910.jpg?t=st=1736125556~exp=1736129156~hmac=2698fe8c98acd2ef13058e564747b185b63c08a5b17813b81e9f2a8326969c85&w=900");
     background-position: center;
     background-size: cover;
